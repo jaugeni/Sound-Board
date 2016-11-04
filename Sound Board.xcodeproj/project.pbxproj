@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		933F09401DCCEBC800E7F20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F093F1DCCEBC800E7F20A /* AppDelegate.swift */; };
-		933F09421DCCEBC800E7F20A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F09411DCCEBC800E7F20A /* ViewController.swift */; };
+		933F09421DCCEBC800E7F20A /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F09411DCCEBC800E7F20A /* mainVC.swift */; };
 		933F09451DCCEBC800E7F20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933F09431DCCEBC800E7F20A /* Main.storyboard */; };
 		933F09481DCCEBC800E7F20A /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 933F09461DCCEBC800E7F20A /* Sound_Board.xcdatamodeld */; };
 		933F094A1DCCEBC800E7F20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933F09491DCCEBC800E7F20A /* Assets.xcassets */; };
 		933F094D1DCCEBC800E7F20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933F094B1DCCEBC800E7F20A /* LaunchScreen.storyboard */; };
+		933F09561DCCF30F00E7F20A /* SoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F09551DCCF30F00E7F20A /* SoundVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		933F093C1DCCEBC800E7F20A /* Sound Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		933F093F1DCCEBC800E7F20A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		933F09411DCCEBC800E7F20A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		933F09411DCCEBC800E7F20A /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
 		933F09441DCCEBC800E7F20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		933F09471DCCEBC800E7F20A /* Sound_Board.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sound_Board.xcdatamodel; sourceTree = "<group>"; };
 		933F09491DCCEBC800E7F20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933F094C1DCCEBC800E7F20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933F094E1DCCEBC800E7F20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933F09551DCCF30F00E7F20A /* SoundVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,8 @@
 		933F093E1DCCEBC800E7F20A /* Sound Board */ = {
 			isa = PBXGroup;
 			children = (
+				933F09541DCCED4100E7F20A /* Controllers */,
 				933F093F1DCCEBC800E7F20A /* AppDelegate.swift */,
-				933F09411DCCEBC800E7F20A /* ViewController.swift */,
 				933F09431DCCEBC800E7F20A /* Main.storyboard */,
 				933F09491DCCEBC800E7F20A /* Assets.xcassets */,
 				933F094B1DCCEBC800E7F20A /* LaunchScreen.storyboard */,
@@ -65,6 +67,15 @@
 				933F09461DCCEBC800E7F20A /* Sound_Board.xcdatamodeld */,
 			);
 			path = "Sound Board";
+			sourceTree = "<group>";
+		};
+		933F09541DCCED4100E7F20A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				933F09411DCCEBC800E7F20A /* mainVC.swift */,
+				933F09551DCCF30F00E7F20A /* SoundVC.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				933F09481DCCEBC800E7F20A /* Sound_Board.xcdatamodeld in Sources */,
-				933F09421DCCEBC800E7F20A /* ViewController.swift in Sources */,
+				933F09421DCCEBC800E7F20A /* mainVC.swift in Sources */,
+				933F09561DCCF30F00E7F20A /* SoundVC.swift in Sources */,
 				933F09401DCCEBC800E7F20A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T4A9P48H94;
 				INFOPLIST_FILE = "Sound Board/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "club.beconnected.Sound-Board";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,6 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T4A9P48H94;
 				INFOPLIST_FILE = "Sound Board/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "club.beconnected.Sound-Board";
 				PRODUCT_NAME = "$(TARGET_NAME)";
