@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		933F09401DCCEBC800E7F20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F093F1DCCEBC800E7F20A /* AppDelegate.swift */; };
+		933F09421DCCEBC800E7F20A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F09411DCCEBC800E7F20A /* ViewController.swift */; };
+		933F09451DCCEBC800E7F20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933F09431DCCEBC800E7F20A /* Main.storyboard */; };
+		933F09481DCCEBC800E7F20A /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 933F09461DCCEBC800E7F20A /* Sound_Board.xcdatamodeld */; };
+		933F094A1DCCEBC800E7F20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933F09491DCCEBC800E7F20A /* Assets.xcassets */; };
+		933F094D1DCCEBC800E7F20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933F094B1DCCEBC800E7F20A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		933F093C1DCCEBC800E7F20A /* Sound Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		933F093F1DCCEBC800E7F20A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		933F09411DCCEBC800E7F20A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		933F09441DCCEBC800E7F20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		933F09471DCCEBC800E7F20A /* Sound_Board.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sound_Board.xcdatamodel; sourceTree = "<group>"; };
+		933F09491DCCEBC800E7F20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		933F094C1DCCEBC800E7F20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		933F094E1DCCEBC800E7F20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		933F09391DCCEBC800E7F20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		933F09331DCCEBC800E7F20A = {
+			isa = PBXGroup;
+			children = (
+				933F093E1DCCEBC800E7F20A /* Sound Board */,
+				933F093D1DCCEBC800E7F20A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		933F093D1DCCEBC800E7F20A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933F093C1DCCEBC800E7F20A /* Sound Board.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		933F093E1DCCEBC800E7F20A /* Sound Board */ = {
+			isa = PBXGroup;
+			children = (
+				933F093F1DCCEBC800E7F20A /* AppDelegate.swift */,
+				933F09411DCCEBC800E7F20A /* ViewController.swift */,
+				933F09431DCCEBC800E7F20A /* Main.storyboard */,
+				933F09491DCCEBC800E7F20A /* Assets.xcassets */,
+				933F094B1DCCEBC800E7F20A /* LaunchScreen.storyboard */,
+				933F094E1DCCEBC800E7F20A /* Info.plist */,
+				933F09461DCCEBC800E7F20A /* Sound_Board.xcdatamodeld */,
+			);
+			path = "Sound Board";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		933F093B1DCCEBC800E7F20A /* Sound Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933F09511DCCEBC800E7F20A /* Build configuration list for PBXNativeTarget "Sound Board" */;
+			buildPhases = (
+				933F09381DCCEBC800E7F20A /* Sources */,
+				933F09391DCCEBC800E7F20A /* Frameworks */,
+				933F093A1DCCEBC800E7F20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sound Board";
+			productName = "Sound Board";
+			productReference = 933F093C1DCCEBC800E7F20A /* Sound Board.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933F09341DCCEBC800E7F20A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "be connected club";
+				TargetAttributes = {
+					933F093B1DCCEBC800E7F20A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T4A9P48H94;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 933F09371DCCEBC800E7F20A /* Build configuration list for PBXProject "Sound Board" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 933F09331DCCEBC800E7F20A;
+			productRefGroup = 933F093D1DCCEBC800E7F20A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933F093B1DCCEBC800E7F20A /* Sound Board */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933F093A1DCCEBC800E7F20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F094D1DCCEBC800E7F20A /* LaunchScreen.storyboard in Resources */,
+				933F094A1DCCEBC800E7F20A /* Assets.xcassets in Resources */,
+				933F09451DCCEBC800E7F20A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		933F09381DCCEBC800E7F20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F09481DCCEBC800E7F20A /* Sound_Board.xcdatamodeld in Sources */,
+				933F09421DCCEBC800E7F20A /* ViewController.swift in Sources */,
+				933F09401DCCEBC800E7F20A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		933F09431DCCEBC800E7F20A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933F09441DCCEBC800E7F20A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		933F094B1DCCEBC800E7F20A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933F094C1DCCEBC800E7F20A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		933F094F1DCCEBC800E7F20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		933F09501DCCEBC800E7F20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933F09521DCCEBC800E7F20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T4A9P48H94;
+				INFOPLIST_FILE = "Sound Board/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "club.beconnected.Sound-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		933F09531DCCEBC800E7F20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T4A9P48H94;
+				INFOPLIST_FILE = "Sound Board/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "club.beconnected.Sound-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		933F09371DCCEBC800E7F20A /* Build configuration list for PBXProject "Sound Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933F094F1DCCEBC800E7F20A /* Debug */,
+				933F09501DCCEBC800E7F20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933F09511DCCEBC800E7F20A /* Build configuration list for PBXNativeTarget "Sound Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933F09521DCCEBC800E7F20A /* Debug */,
+				933F09531DCCEBC800E7F20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		933F09461DCCEBC800E7F20A /* Sound_Board.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				933F09471DCCEBC800E7F20A /* Sound_Board.xcdatamodel */,
+			);
+			currentVersion = 933F09471DCCEBC800E7F20A /* Sound_Board.xcdatamodel */;
+			path = Sound_Board.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 933F09341DCCEBC800E7F20A /* Project object */;
+}
